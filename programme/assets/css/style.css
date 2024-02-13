@@ -1,0 +1,160 @@
+body{
+    display: grid;
+    grid-template-columns: 24% 2% 74%;
+    grid-template-rows: 20% 5% 65% 10%;
+    gap: none;
+    width: 1160px;
+    max-height: 2000px;
+    word-break: normal;
+    margin: auto;
+    
+}
+
+header{
+    color: white;
+    background-color: #782221;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+
+.photo{
+    margin-top: 20px;
+    width: 30%;
+    height: 30%;
+    border-radius: 100%;
+    box-shadow: 10px 10px 10px 10px black;
+}
+.photo:hover{
+    cursor: zoom-in;
+}
+.photo:active{
+    background-image: url(C:\Users\mrmax\OneDrive\Bureau\Webdesign\Exam2CV\Photos\photodemoiexamdevweb.jpg);
+}
+
+nav{
+    background-color: #2c1d27;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    align-items: center;
+    font-family: 'lato';
+}
+
+.adresse{
+    color: white;
+    text-align: left;
+    text-decoration: none;
+
+}
+.adresse:hover{
+    text-decoration: underline;
+}
+
+.mail{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.mail:hover{
+    text-decoration: underline;
+}
+
+.tel{
+    color: white;
+    text-align: right;
+    text-decoration: none;
+}
+.tel:hover{
+    text-decoration: underline;
+}
+
+aside{
+    background-color: #782221;
+}
+aside>p{
+    color: white;
+    text-indent: 8%;
+    margin-left: 5%;
+}
+aside>ul{
+    color: white;
+    font-family: 'lato';
+}
+
+main{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    border-right: solid;
+    background-color: white;
+}
+
+h3{
+    background-color: #dbc2a4;
+    text-indent: 3%;
+    font-family: 'raleway';
+}
+
+main>ul{
+    font-family: 'lato';
+}
+main>ul:hover{
+    border-right-width: thick;
+    border-right-color: #722221;
+    border-right-style: solid;
+}
+
+p{
+    text-indent: 2%;
+    font-family: 'lato';
+}
+main>p:hover{
+    border-right-width: thick;
+    border-right-color: #722221;
+    border-right-style: solid;
+}
+
+br+p{
+    text-indent: 2%;
+    font-family: 'lato';
+}
+h4{
+    text-indent: 2%;
+    font-family: 'lato';
+}
+
+footer{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: #782221;
+    text-align: center;
+    color: white;
+    font-family: 'lato';
+}
+
+.GH{
+    width: 30%;
+    height: 30%;
+}
+.GH:hover{
+    opacity: 0.7;
+}
+
+.IG{
+    width: 30%;
+    height: 30%;
+}
+.IG:hover{
+    opacity: 0.7;
+}
+
+.TW{
+    width: 30%;
+    height: 30%;
+}
+.TW:hover{
+    opacity: 0.7;
+}
